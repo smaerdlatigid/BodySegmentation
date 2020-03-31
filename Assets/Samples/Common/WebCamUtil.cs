@@ -9,7 +9,7 @@ namespace TensorFlowLite
         {
             if (Application.isMobilePlatform)
             {
-                return WebCamTexture.devices.Where(d => !d.isFrontFacing).Last().name;
+                return WebCamTexture.devices.Where(d => d.isFrontFacing).Last().name;
             }
             return WebCamTexture.devices.Last().name;
         }
