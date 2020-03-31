@@ -10,27 +10,23 @@ namespace TensorFlowLite
         // https://github.com/tensorflow/examples/blob/master/lite/examples/image_segmentation/ios/ImageSegmentation/ImageSegmentator.swift
         static readonly Color32[] COLOR_TABLE = new Color32[]
         {
-            ToColor(0xFF00_0000), // Black
-            ToColor(0xFF80_3E75), // Strong Purple
-            ToColor(0xFFFF_6800), // Vivid Orange
-            ToColor(0xFFA6_BDD7), // Very Light Blue
-            ToColor(0xFFC1_0020), // Vivid Red
-            ToColor(0xFFCE_A262), // Grayish Yellow
-            ToColor(0xFF81_7066), // Medium Gray
-            ToColor(0xFF00_7D34), // Vivid Green
-            ToColor(0xFFF6_768E), // Strong Purplish Pink
-            ToColor(0xFF00_538A), // Strong Blue
-            ToColor(0xFFFF_7A5C), // Strong Yellowish Pink
-            ToColor(0xFF53_377A), // Strong Violet
-            ToColor(0xFFFF_8E00), // Vivid Orange Yellow
-            ToColor(0xFFB3_2851), // Strong Purplish Red
-            ToColor(0xFFF4_C800), // Vivid Greenish Yellow
-            ToColor(0xFF7F_180D), // Strong Reddish Brown
-            ToColor(0xFF93_AA00), // Vivid Yellowish Green
-            ToColor(0xFF59_3315), // Deep Yellowish Brown
-            ToColor(0xFFF1_3A13), // Vivid Reddish Orange
-            ToColor(0xFF23_2C16), // Dark Olive Green
-            ToColor(0xFF00_A1C2), // Vivid Blue
+            ToColor(0xFF00_FF00), // Vivid Green
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
+            ToColor(0x0000_0000), // clear
         };
 
 

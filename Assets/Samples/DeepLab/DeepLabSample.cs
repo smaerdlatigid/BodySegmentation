@@ -43,7 +43,6 @@ public class DeepLabSample : MonoBehaviour
 
         deepLab.Invoke(webcamTexture);
         outputView.texture = deepLab.GetResultTexture2D();
-
         cameraView.material = deepLab.transformMat;
     }
 
